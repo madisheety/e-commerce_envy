@@ -1,10 +1,4 @@
 # 🛍️ Envy E-Commerce
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-
 Envy E-Commerce is a high-performance, modern storefront built for speed and responsiveness. Leveraging **React 18** and **Vite**, it delivers a seamless shopping experience with real-time cart updates and secure user flows.
 
 ---
