@@ -1,41 +1,34 @@
-# 🛍️ Envy E-Commerce
-Envy E-Commerce is a high-performance, modern storefront built for speed and responsiveness. Leveraging **React 18** and **Vite**, it delivers a seamless shopping experience with real-time cart updates and secure user flows.
+Envy E-commerce
+Envy E-commerce is a modern and responsive e-commerce web application built with Vite and ReactJS. It features a variety of pages including home, product collection, product details, cart, and more. The styling is done using TailwindCSS version 3.4.17.
 
----
+Features
+User authentication (login)
+Product listing and details
+Shopping cart functionality
+Order placement
+Responsive design
+Toast notifications
+Installation
+Clone the repository:
 
-## 🚀 Key Features
+git clone https://github.com/rudra-xi/envy-ecommerce.git
+Navigate to the project directory:
 
-*   🔐 **Secure Auth:** Integrated user login and session simulation.
-*   🛒 **Smart Cart:** Dynamic quantity updates and persistence using React Context.
-*   📱 **Adaptive UI:** Built with a Mobile-First approach via TailwindCSS.
-*   ⚡ **Vite-Powered:** Lightning-fast Hot Module Replacement (HMR).
-*   🔔 **Active Feedback:** UX-driven notifications via React Toastify.
+cd envy-ecommerce
+Install the dependencies:
 
----
+npm install
+Usage
+Start the development server:
 
-## 🛠️ Tech Stack
+npm run dev
+Open your browser and navigate to http://localhost:8000.
 
-| Tool | Usage |
-| :--- | :--- |
-| **ReactJS** | Component-based Architecture |
-| **Vite** | Build Tool & Dev Server |
-| **TailwindCSS** | Utility-first Styling |
-| **React Router** | Client-side Navigation |
-| **React Context** | State Management (Cart & User) |
+Important Dependencies
+Vite: ^6.0.5
+React: ^18.3.1
+React Router DOM: ^7.1.3
+TailwindCSS: ^3.4.17
+React Toastify: ^11.0.3
 
----
-
-## 📂 Project Structure
-
-```text
-envy-ecommerce/
-├── public/              # Static assets
-├── src/
-│   ├── assets/          # Images and icons
-│   ├── components/      # Reusable UI elements
-│   ├── pages/           # Route-level views
-│   ├── context/         # Global state management
-│   ├── App.jsx          # Main Router & Provider
-│   └── main.jsx         # Entry point
-├── package.json         # Scripts & Deps
-└── vite.config.js       # Vite configuration
+Author:Madishetty Srinidhi
